@@ -96,3 +96,7 @@ ellipse(button3X, button3Y, buttonDiameter, buttonDiameter);
 ellipse(bottomX, bottomY, bottomDiameter, bottomDiameter);
 //ground
 //rect(groundX, groundY, groundWidth, groundHeight);
+//snow
+snowX = random(width);
+snowY = random(height);
+snowDiameter = 
