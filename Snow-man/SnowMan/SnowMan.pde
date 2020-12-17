@@ -16,57 +16,13 @@ float button2X, button2Y;
 float button3X, button3Y;
 float bottomX, bottomY, bottomDiameter;
 float groundX, groundY, groundWidth, groundHeight;
+color black = #000000;
 
 //
-//Display Geometry
-fullScreen();
-//
-//Populating Variables
-//snowManSquareX = width*1;
-//snowManSquareY = height*9/10;
-//snowManSquareSide = width*1/1; 
-faceX = width*1/2;
-faceY = height*1/11;
-faceDiameter = height*1/6; //Variable shortSide
-leftEyeX = width*24/50;
-leftEyeY = height*3/40;
-rightEyeX = width*26/50; 
-rightEyeY = height*3/40;
-eyeDiameter = height*1/50;
-noseX1 = width*1/2;
-noseY1 = height*1/11;
-noseX2 = width*11/20;
-noseY2 = height*5/50;
-noseX3 = width*1/2;
-noseY3 = height*7/60;
-coal1X = width*47/100; 
-coal1Y = height*4/30; 
-coal2X = width*12/25;
-coal2Y = height*9/60;
-coal3X = width*59/120;
-coal3Y = height*19/120;
-coal4X = width*71/140;
-coal4Y = height*19/120;
-coal5X = width*13/25;
-coal5Y = height*18/120;
-coal6X = width*53/100;
-coal6Y = height*4/30;
-coalDiameter = height*1/70;
-middleX = width*1/2;
-middleY = height*41/120;
-middleDiameter = height*1/3;
-button1X = width*1/2;
-button1Y = height*1/4;
-buttonDiameter = height*2/70;
-button2X = width*1/2;
-button2Y = height*3/7;
-button3X = width*1/2;
-button3Y = height*34/100;
-bottomX = width*1/2;
-bottomY = height*76/100;
-bottomDiameter = height*1/2;
-//
-//The SnowMan
+void setup() {
+  fullScreen();
+  population();
+  //The SnowMan
 //
 //Head
 //rect(snowManSquareX, snowManSquareY, snowManSquareSide, snowManSquareSide);
@@ -95,8 +51,18 @@ ellipse(button3X, button3Y, buttonDiameter, buttonDiameter);
 //Bottom
 ellipse(bottomX, bottomY, bottomDiameter, bottomDiameter);
 //ground
-//rect(groundX, groundY, groundWidth, groundHeight);
+rect(groundX, groundY, groundWidth, groundHeight);
+
+}
+//
+//Populating Variables
+//snowManSquareX = width*1;
+//snowManSquareY = height*9/10;
+//snowManSquareSide = width*1/1; 
+
+void draw() {
+//
+
+
 //snow
-snowX = random(width);
-snowY = random(height);
-snowDiameter = 
+}
